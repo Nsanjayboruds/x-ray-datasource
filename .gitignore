@@ -31,7 +31,6 @@ e2e-results/
 .idea
 
 # vscode
-.vscode
 __debug_bin
 
 # E2E tests
@@ -40,8 +39,6 @@ __debug_bin
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
-.env
-.env.*
 # ignore all provisioning files except for e2e placeholders.
 provisioning/datasources/*
 !provisioning/datasources/*.e2e.yaml
@@ -54,3 +51,4 @@ provisioning/datasources/*
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+config.bat
